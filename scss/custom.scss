@@ -1,0 +1,29 @@
+$secondary: rgb(94, 94, 94);
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.custombg {
+    background-image: url('../img/ba1.jpg');
+    width: 100vh;
+    height: 100vh;
+}
+
+.card {
+    background-color: gray;
+}
+
+.btn.custombtn {
+    background-color: rgb(73, 165, 73);
+    color: white;
+}
+
+.pie.navbar-collapse {
+    justify-content: center;
+}
+
+.footerbg {
+    background-image: linear-gradient(to right, rgb(10, 3, 71), rgb(23, 10, 143));
+}
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
